@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Q&A</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 800px;
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .qa {
+            margin-bottom: 15px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #fafafa;
+        }
+        .question {
+            font-weight: bold;
+            color: #007BFF;
+        }
+        .answer {
+            margin-top: 10px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>JavaScript Questions and Answers</h1>
+        
+        <div class="qa">
+            <div class="question">What is JavaScript?</div>
+            <div class="answer">JavaScript is a lightweight, interpreted programming language used to create interactive effects within web browsers.</div>
+        </div>
+
+        <div class="qa">
+            <div class="question">What is the difference between <code>var</code>, <code>let</code>, and <code>const</code>?</div>
+            <div class="answer">
+                <ul>
+                    <li><strong>var:</strong> Function-scoped, can be redeclared, and is hoisted.</li>
+                    <li><strong>let:</strong> Block-scoped and cannot be redeclared in the same scope.</li>
+                    <li><strong>const:</strong> Block-scoped and must be initialized at declaration; its value cannot be reassigned.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="qa">
+            <div class="question">What are JavaScript Promises?</div>
+            <div class="answer">Promises are used to handle asynchronous operations in JavaScript. A promise represents a value which may be available now, or in the future, or never.</div>
+        </div>
+
+        <div class="qa">
+            <div class="question">What is the difference between == and === in JavaScript?</div>
+            <div class="answer">
+                <ul>
+                    <li><strong>==:</strong> Compares two values for equality after type conversion if necessary.</li>
+                    <li><strong>===:</strong> Strict equality operator; compares both value and type without conversion.</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
